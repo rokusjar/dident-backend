@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/rokusjar/dident-backend/issues"
   },
-  "homepage": "https://github.com/rokusjar/dident-backend#readme"
+  "homepage": "https://github.com/rokusjar/dident-backend#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
