@@ -4,7 +4,8 @@
   "description": "Rest API pro dident 2.0",
   "main": "app.js",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "express": "^4.15.3"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0"
   }
 }
